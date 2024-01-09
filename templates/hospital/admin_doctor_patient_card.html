@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      border-radius: 15px;
+    }
+
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+
+    button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #172627;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    button:hover,
+    a:hover {
+      background-color: #337ab7;
+      color: #f5fff9;
+      transition: 0.3s ease;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a {
+      color: #f5fff9;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="card">
+        <img src="{% static "images/admin2.jpg" %}" alt="John" style="width:100%">
+        <p class="title">ADMIN</p>
+        <p><button><a href="/adminclick">View</a></button></p>
+      </div>
+
+    </div>
+
+    <div class="grid-item">
+      <div class="card">
+        <img src="{% static "images/dokter1.jpg" %}" alt="John" style="width:100%">
+        <p class="title">DOCTOR</p>
+        <p><button><a href="/doctorclick">View</a></button></p>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <div class="card">
+        <img src="{% static "images/patient.jpg" %}" alt="John" style="width:100%">
+        <p class="title">PATIENT</p>
+        <p><button><a href="/patientclick">View</a></button></p>
+      </div>
+    </div>
+
+  </div>
+ 
+
+</body>
+
+</html>
