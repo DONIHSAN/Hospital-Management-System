@@ -1,6 +1,6 @@
 # Hospital-Management-System 👨‍⚕️
 
-## Anggota Kelompok
+## Anggota Kelompok :
 
 
 |**Nama**|**NIM**|**Kelas**|**Matkul**|
@@ -10,7 +10,7 @@
 |Muhammad Verdy Hasan|312210241|TI.22.A.2|Object Oriented Programming|
 |Fergiawan Satrio Bagaskoro|312210169|TI.22.A.2|Object Oriented Programming|
 
-## Instructions
+## Instructions :
 
 - Install the Requirements : ``pip install -r requirement.txt``
 
@@ -18,12 +18,11 @@
 
 - ``python manage.py migrate``
 
-- And finally, run the application : ``python manage.py runserver``
-
-***For Admin Account, please create one with superuser!***
+- And finally , run the application : ``python manage.py runserver``
 
 
-## Screenshots
+
+## Screenshots :
 
 ***Tampilan Home Page :***
 
